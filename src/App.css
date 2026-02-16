@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* Custom animation for drawers */
+@keyframes drawerSlideDown {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
+
+/* Prevent page from jumping when switching routes */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reserve scrollbar space always -> prevents flicker */
+body {
+  overflow-y: hidden;
+  scrollbar-gutter: stable;
+  background-color: #fcfcfc;
+}
+
+/* Temporarily block scrolling during animation */
+.body-no-scroll {
+  overflow: hidden !important;
+  touch-action: none !important;
+}
+
+/* Ensure route containers occupy full viewport */
+.app-min-h-screen {
+  min-height: 100vh;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Lightweight focus-visible helper (optional) */
+:root { --focus-ring: 3px solid rgba(59,130,246,0.18); }

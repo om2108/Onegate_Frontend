@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2024-07-26",
+    "time": "12:00 PM",
+    "type": "Visitor Entry",
+    "name": "John Doe",
+    "contact": "123-456-7890",
+    "purpose": "Meeting with Apt 101",
+    "status": "Checked In"
+  },
+  {
+    "date": "2024-07-26",
+    "time": "11:15 AM",
+    "type": "Resident Verification",
+    "name": "Jane Smith",
+    "contact": "987-654-3210",
+    "purpose": "Access to Gym",
+    "status": "Verified"
+  },
+  {
+    "date": "2024-07-26",
+    "time": "09:45 AM",
+    "type": "Visitor Entry",
+    "name": "Alice Brown",
+    "contact": "555-123-4567",
+    "purpose": "Delivery for Apt 203",
+    "status": "Checked Out"
+  },
+  {
+    "date": "2024-07-26",
+    "time": "02:00 PM",
+    "type": "Resident Verification",
+    "name": "Bob Johnson",
+    "contact": "111-222-3333",
+    "purpose": "Request for parking",
+    "status": "Verified"
+  },
+  {
+    "date": "2024-07-26",
+    "time": "03:30 PM",
+    "type": "Visitor Entry",
+    "name": "Eve Davis",
+    "contact": "777-888-9999",
+    "purpose": "Repair work at Apt 305",
+    "status": "Checked In"
+  },
+  {
+    "date": "2024-07-25",
+    "time": "08:00 AM",
+    "type": "Visitor Entry",
+    "name": "Michael Lee",
+    "contact": "123-123-1234",
+    "purpose": "Maintenance visit",
+    "status": "Checked In"
+  },
+  {
+    "date": "2024-07-25",
+    "time": "10:00 AM",
+    "type": "Resident Verification",
+    "name": "Sarah Chan",
+    "contact": "456-456-4567",
+    "purpose": "Entry registration",
+    "status": "Verified"
+  },
+  {
+    "date": "2024-07-25",
+    "time": "12:00 PM",
+    "type": "Visitor Entry",
+    "name": "David Kim",
+    "contact": "789-789-7890",
+    "purpose": "Food delivery",
+    "status": "Checked Out"
+  }
+]

@@ -1,0 +1,60 @@
+const properties = [
+  {
+    id: 1,
+    name: "Green Valley Apartments",
+    address: "4200 Greenleaf Ct, Park City, IL 60085",
+    units: 12,
+    status: "Active",
+    image: "https://images.unsplash.com/photo-1560184897-7e78c9e6a158?auto=format&fit=crop&w=400&q=80",
+  },
+  {
+    id: 2,
+    name: "Riverfront Condos",
+    address: "2951 Idlewild Dr, Reno, NV 89509",
+    units: 6,
+    status: "Vacant",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=400&q=80",
+  },
+  {
+    id: 3,
+    name: "Sunset Villas",
+    address: "789 Pine Lane, Lakeside, FL 32013",
+    units: 4,
+    status: "Leased",
+    image: "https://images.unsplash.com/photo-1616627986620-1f5c7f4d1b9b?auto=format&fit=crop&w=400&q=80",
+  },
+  {
+    id: 4,
+    name: "Downtown Lofts",
+    address: "101 Market Street, Metropolis, NY 10001",
+    units: 8,
+    status: "Under Renovation",
+    image: "https://images.unsplash.com/photo-1572120360610-d971b9f3c1b0?auto=format&fit=crop&w=400&q=80",
+  },
+  {
+    id: 5,
+    name: "Maplewood Townhomes",
+    address: "512 Maple St, Portland, OR 97205",
+    units: 10,
+    status: "Active",
+    image: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=400&q=80",
+  },
+  {
+    id: 6,
+    name: "Oceanview Residences",
+    address: "88 Seaside Blvd, Miami, FL 33139",
+    units: 5,
+    status: "Vacant",
+    image: "https://images.unsplash.com/photo-1599423300746-b62533397364?auto=format&fit=crop&w=400&q=80",
+  },
+  {
+    id: 7,
+    name: "Hilltop Estates",
+    address: "234 Sunset Rd, San Francisco, CA 94132",
+    units: 7,
+    status: "Leased",
+    image: "https://images.unsplash.com/photo-1598928506310-350cd1d7d8d8?auto=format&fit=crop&w=400&q=80",
+  },
+];
+
+export default properties;

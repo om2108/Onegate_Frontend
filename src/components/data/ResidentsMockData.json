@@ -1,0 +1,20 @@
+[
+  {
+    "flatNo": "A-101",
+    "name": "Rahul Sharma",
+    "phone": "+91 98765 43210",
+    "email": "rahul.sharma@example.com"
+  },
+  {
+    "flatNo": "B-204",
+    "name": "Priya Mehta",
+    "phone": "+91 99887 66554",
+    "email": "priya.mehta@example.com"
+  },
+  {
+    "flatNo": "C-303",
+    "name": "Amit Singh",
+    "phone": "+91 90909 12121",
+    "email": "amit.singh@example.com"
+  }
+]
